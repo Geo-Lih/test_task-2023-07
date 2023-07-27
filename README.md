@@ -22,17 +22,17 @@ Uploading Instructions:
 
         python3 -m venv venv
 
-Activate the virtual environment:
+3. Activate the virtual environment:
 
         source venv/bin/activate
 
 
-3. Install Dependencies:
+4. Install Dependencies:
 
         pip install -r requirements.txt
 
 
-4. Set Up Environment Variables:
+5. Set Up Environment Variables:
 
 You need to create a `.env` file in the root of the project with the following structure:
 
@@ -47,7 +47,7 @@ You need to create a `.env` file in the root of the project with the following s
         DB_PASS=your_database_password
 
 
-5. Run Alembic Migrations:
+6. Run Alembic Migrations:
 
 First, make sure your database connection details are correctly set in the `.env` file.
 
@@ -56,6 +56,6 @@ First, make sure your database connection details are correctly set in the `.env
 This will apply all pending migrations and update the database schema.
 
 
-6. Run the FastAPI Application:
+7. Run the FastAPI Application:
 
         uvicorn main:app --reload
