@@ -35,3 +35,4 @@ watchfiles==0.19.0
 websockets==11.0.3
 xlrd==2.0.1
 zipp==3.16.2
+cryptography=3.4.8
