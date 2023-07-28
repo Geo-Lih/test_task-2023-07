@@ -1,6 +1,6 @@
 Test_task
 
-This is a FastAPI project that serves as a JSON API for managing credits and payment plans. The project uses MySQL as the database, SQLAlchemy as the ORM for database operations, and Alembic for managing database migrations. Uvicorn is used as the ASGI server to run the FastAPI application. During the development of this app, the primary focus was aimed at leveraging SQLAlchemy and its advanced querying capabilities to interact with the database efficiently.
+This is a FastAPI project that serves as a JSON API for managing credits and payment plans. The project uses FastAPI as the framework for handling HTTP requests and responses. It utilizes MySQL as the database, SQLAlchemy as the ORM for database operations, and Alembic for managing database migrations. Uvicorn is used as the ASGI server to run the FastAPI application. Additionally, Pydantic is used for data validation and serialization, and Pandas is utilized for parsing Excel files. During the development of this app, the primary focus was aimed at leveraging SQLAlchemy and its advanced querying capabilities to interact with the database efficiently.
 
 
 
