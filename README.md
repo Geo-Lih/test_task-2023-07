@@ -1,6 +1,6 @@
 Test_task
 
-This is a FastAPI project for managing credits and payment plans. It allows users to view their credits, insert new payment plans, and analyze plan performance.During the development of this app, the primary focus was aimed at leveraging SQLAlchemy and its advanced querying capabilities to interact with the database efficiently.
+This is a FastAPI project that serves as a JSON API for managing credits and payment plans. The project uses MySQL as the database, SQLAlchemy as the ORM for database operations, and Alembic for managing database migrations. Uvicorn is used as the ASGI server to run the FastAPI application. During the development of this app, the primary focus was aimed at leveraging SQLAlchemy and its advanced querying capabilities to interact with the database efficiently.
 
 
 
