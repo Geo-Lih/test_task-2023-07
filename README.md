@@ -1,6 +1,6 @@
 Test_task
 
-This is a FastAPI project for managing credits and payment plans. It allows users to view their credits, insert new payment plans, and analyze plan performance.
+This is a FastAPI project for managing credits and payment plans. It allows users to view their credits, insert new payment plans, and analyze plan performance.During the development of this app, the primary focus was aimed at leveraging SQLAlchemy and its advanced querying capabilities to interact with the database efficiently.
 
 
 
